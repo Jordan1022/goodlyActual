@@ -10,7 +10,7 @@ function App() {
         <p></p>
         <img src={goodlyLogo} className="App-logo" alt="logo" />
         <p>
-         
+         Coming Soon...
         </p>
       </header>
     <body>
