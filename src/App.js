@@ -1,18 +1,23 @@
 import React from 'react';
-import corban from './corban.jpeg';
+import goodlyLogo from './goodlyLogo.svg';
 import './App.css';
+import './LoginForm.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>#AgentCorban</p>
-        <img src={corban} className="App-logo" alt="logo" />
+        <p></p>
+        <img src={goodlyLogo} className="App-logo" alt="logo" />
         <p>
-          Goodly Development ...
+         
         </p>
-
       </header>
+    <body>
+      <div>
+        
+      </div>
+    </body>
     </div>
   );
 }
