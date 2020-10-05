@@ -3,7 +3,7 @@ import goodlyLogo from './goodlyLogo.svg';
 import './App.css';
 import './LoginForm.js';
 import {Switch, Route} from 'react-router-dom'
-import landingPage from './pages/landingPage';
+import landingPage from './pages/Landing Page/landingPage';
 
 const App = () => {
   
