@@ -1,6 +1,7 @@
 {
   "name": "goodly-dev",
   "version": "0.1.0",
+  "homepage": "https://goodlydevelopment.com",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",

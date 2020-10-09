@@ -6,7 +6,7 @@ import './styles.css'
 const contact = () => {
     return(
         <Grid>
-            
+            <p>contacting ET!!</p>
         </Grid>
     )
 }
