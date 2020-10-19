@@ -1,5 +1,4 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
 import { makeStyles } from '@material-ui/core/styles';
 import './styles.css'
 
@@ -15,21 +14,20 @@ const useStyles = makeStyles({
     },
   });
 
+
 const landingPage = () => {
 
     return (
-        <Grid>
-            <header>Doing things is great eh?</header>
-            <img src="public/assets/goodlyLogo.svg" alt="" />
-           <Grid container className="FirstDiv">
+        <div>
+           <div container className="FirstDiv">
                 <p>
                     Making stuff for people... the best!
                 </p>
-           </Grid>
-           <Grid>
+           </div>
+           <div>
                <img src="public/assets/goodlyLogo.svg" alt=""/>
-           </Grid>
-        </Grid>
+           </div>
+        </div>
 
     )
 }
