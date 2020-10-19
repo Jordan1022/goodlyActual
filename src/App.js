@@ -4,7 +4,7 @@ import './LoginForm.js';
 import {Switch, Route} from 'react-router-dom'
 import landingPage from './pages/LandingPage/landingPage';
 import contact from './pages/ContactPage/contactPage';
-import Header from '../src/components/header';
+import Header from './components/header.jsx';
 import Footer from '../src/components/footer';
 
 const theme = {};
