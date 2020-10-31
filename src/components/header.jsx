@@ -1,18 +1,19 @@
 import React from "react";
 import { ReactComponent as Logo } from '../assets/images/logo.svg';
 import { makeStyles } from '@material-ui/core/styles';
+import { CropPortrait } from "@material-ui/icons";
 
 const useStyles = makeStyles ({
     root: {
-        "width": "200px"
+        color: "brown"
         }
 });
 
 const Header = () => {
     const classes = useStyles();
     return (
-       <div>
-           <div className="col-md-4 classes.root">
+       <div style={{"background-color": "#cc9900", position:"sticky",}}>
+           <div>
             <Logo />
            </div>
         </div>
