@@ -7,15 +7,18 @@ const useStyles = makeStyles ({
     root: {
         color: "brown"
         }
+
 });
 
 const Header = () => {
-    const classes = useStyles();
+    useStyles();
     return (
-       <div style={{"background-color": "#cc9900", position:"sticky",}}>
+       <div className="row" style={{"background-color": "#cc9900", "justify-content":"space-around"}}>
            <div>
             <Logo />
            </div>
+           {/* <button variant="contained" color="primary">Contact</button>
+           <button className="">FAQ</button> */}
         </div>
     )
 }

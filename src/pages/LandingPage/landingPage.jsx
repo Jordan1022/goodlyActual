@@ -19,14 +19,13 @@ const landingPage = () => {
 
     return (
         <div>
-           <div container className="FirstDiv">
+           {/* <div container className="FirstDiv">
                 <p>
                     Making stuff for people... the best!
                 </p>
            </div>
            <div>
-               <img src="public/assets/goodlyLogo.svg" alt=""/>
-           </div>
+           </div> */}
         </div>
 
     )
