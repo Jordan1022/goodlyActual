@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.svg',
+  img: 'profile.jpg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -59,12 +59,22 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: 'admin@goodlydevelopment.com',
+  email: '',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
+    {
+      id: nanoid(),
+      name: 'twitter',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'codepen',
+      url: '',
+    },
     {
       id: nanoid(),
       name: 'linkedin',
