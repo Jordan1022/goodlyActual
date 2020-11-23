@@ -3,7 +3,7 @@
 ## A clean, beautiful and responsive portfolio template for Developers
 
 <h2 align="center">
-  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Goodly Development" width="600px" />
+  <img src="src/images/GDlogo.png" alt="Goodly Development" width="600px" />
   <br>
 </h2>
 
