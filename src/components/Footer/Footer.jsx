@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import GithubButtons from '../GithubButtons/GithubButtons';
 
 import { githubButtons } from '../../mock/data';
 
@@ -37,13 +38,13 @@ const Footer = () => {
         </div>
         <hr />
         <p className="footer__text">
-          © {new Date().getFullYear()} - {' '}
+          © {new Date().getFullYear()} -{' '}
           <a href="https://github.com/Jordan1022" target="_blank" rel="noopener noreferrer">
             Goodly Development
           </a>
         </p>
 
-        {isEnabled}
+        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );

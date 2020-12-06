@@ -3,7 +3,7 @@
 ## A clean, beautiful and responsive portfolio template for Developers
 
 <h2 align="center">
-  <img src="src/images/GDlogo.png" alt="Goodly Development" width="600px" />
+  <img src="https://github.com/cobidev/gatsby-simplefolio/blob/master/examples/example.gif" alt="Gatsby Simplefolio" width="600px" />
   <br>
 </h2>
 
@@ -110,10 +110,10 @@ Go to `/src/mock/data.js` and fill your information, they are 5 objects:
 
 ```javascript
 export const heroData = {
-  title: "", // Hello, my name is
-  name: "", // John
-  subtitle: "", // I'm the Unknown Developer.
-  cta: "", // Know more
+  title: '', // Hello, my name is
+  name: '', // John
+  subtitle: '', // I'm the Unknown Developer.
+  cta: '', // Know more
 };
 ```
 
@@ -123,11 +123,11 @@ export const heroData = {
 
 ```javascript
 export const aboutData = {
-  img: "profile.jpg", // put your profile image (recommended aspect radio: square)
-  paragraphOne: "",
-  paragraphTwo: "",
-  paragraphThree: "",
-  resume: "https://www.resumemaker.online/es.php", // if no resume, the button will not show up
+  img: 'profile.jpg', // put your profile image (recommended aspect radio: square)
+  paragraphOne: '',
+  paragraphTwo: '',
+  paragraphThree: '',
+  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 ```
 
@@ -165,9 +165,9 @@ export const projectsData = [
 
 ```javascript
 export const contactData = {
-  cta: "", // call to action text for the contact section
-  btn: "", // text inside the button
-  email: "",
+  cta: '', // call to action text for the contact section
+  btn: '', // text inside the button
+  email: '',
 };
 ```
 
@@ -181,23 +181,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: "twitter",
-      url: "", // your twitter url
+      name: 'twitter',
+      url: '', // your twitter url
     },
     {
       id: nanoid(),
-      name: "codepen",
-      url: "", // your codepen url
+      name: 'codepen',
+      url: '', // your codepen url
     },
     {
       id: nanoid(),
-      name: "linkedin",
-      url: "", // your linkedin url
+      name: 'linkedin',
+      url: '', // your linkedin url
     },
     {
       id: nanoid(),
-      name: "github",
-      url: "", // your github url
+      name: 'github',
+      url: '', // your github url
     },
   ],
 };
