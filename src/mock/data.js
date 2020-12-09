@@ -17,8 +17,8 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'GDLogoSquare.jpg',
-  paragraphOne: 'We love to build and problem solve',
+  img: 'greenLogo.jpg',
+  paragraphOne: 'We love to build and solve problems',
   paragraphTwo: 'Technology solutions are our passion',
   paragraphThree: 'How can we help?',
   resume: 'https://www.linkedin.com', // if no resume, the button will not show up
