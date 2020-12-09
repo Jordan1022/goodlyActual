@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'GDLogoSquare.jpg',
   paragraphOne: 'We love to build and problem solve',
   paragraphTwo: 'Technology solutions are our passion',
   paragraphThree: 'How can we help?',
