@@ -38,22 +38,22 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'joyallenwrites.png',
-    title: 'Joy Allen Writes',
+    img: 'SLV.png',
+    title: 'SLVBHG',
     info:
-      'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has e-commerce integrated as well.',
+      'We completed the re-imagining of the website for San Luis Valley Behavorial Health Group, a healthcare nonprofit.',
     info2: '',
-    url: 'https://www.joyallenwrites.com',
+    url: 'https://www.slvbhg.org/',
     repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    img: 'joyallenwrites.png',
+    title: 'Joy Allen Writes',
+    info: 'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has e-commerce integrated as well.',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://www.joyallenwrites.com',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
