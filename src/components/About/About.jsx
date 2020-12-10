@@ -50,14 +50,14 @@ const About = () => {
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
-                    <a
+                    {/* <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
                       href={resume}
                     >
                       Resume
-                    </a>
+                    </a> */}
                   </span>
                 )}
               </div>

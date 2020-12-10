@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'greenLogo.jpg',
+  img: 'Frame.png',
   paragraphOne: 'We love to build and solve problems',
   paragraphTwo: 'Technology solutions are our passion',
   paragraphThree: 'How can we help?',
