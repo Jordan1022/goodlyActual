@@ -28,13 +28,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'Family Date Night',
+    img: 'CRM.png',
+    title: 'Microsoft Dynamics CRM',
     info:
-      'A passion project with the goal of offering creative ideas for family time based on location, cost etc.',
+      'A CRM built on the Microsoft Power Platform with Dynamics CRM. This was a 6 month project in which we built the product from concept to completion. This project is protected by an ICA and for this reason client details and live sample are withheld.',
     info2: '',
     url: '',
-    repo: 'https://github.com/THE-DAD3/FamilyDateNight', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
