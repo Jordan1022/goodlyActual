@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: 'Welcome to',
   name: 'Goodly Development',
-  subtitle: ' ',
+  subtitle: 'Goodly: (Archaic English) of good quality, abundant.',
   cta: 'Know more',
 };
 
