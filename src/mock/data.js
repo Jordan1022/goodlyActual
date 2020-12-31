@@ -38,6 +38,16 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'FDN.png',
+    title: 'Family Date Night',
+    info:
+      'A project in progress that is built to foster connection within families by offering suggestions for family date nights. This is a passion project with a few friends.',
+    info2: '',
+    url: 'https://family-date-night.vercel.app/',
+    repo: 'https://github.com/Goodly-Development/familyDateNight'
+  },
+  {
+    id: nanoid(),
     img: 'SLV.png',
     title: 'SLVBHG',
     info:
