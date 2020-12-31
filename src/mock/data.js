@@ -31,7 +31,7 @@ export const projectsData = [
     img: 'CRM.png',
     title: 'Microsoft Dynamics CRM',
     info:
-      'A CRM built on the Microsoft Power Platform with Dynamics CRM. This was a 6 month project in which we built the product from concept to completion. This project is protected by an ICA and for this reason client details and live sample are withheld.',
+      'This was a 6 month project in which we built a CRM on the Microsoft Power Platform in coordination with another team. This project is protected by an ICA and for this reason client details and live sample are withheld.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'SLV.png',
     title: 'SLVBHG',
     info:
-      'We completed the re-imagining of the website for San Luis Valley Behavorial Health Group, a healthcare nonprofit.',
+      'We completed the re-build of the website for San Luis Valley Behavorial Health Group, a healthcare nonprofit.',
     info2: '',
     url: 'https://www.slvbhg.org/',
     repo: '', // if no repo, the button will not show up
