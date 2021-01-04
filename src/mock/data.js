@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'FDN.png',
     title: 'Family Date Night',
     info:
-      'A React project in progress that is built to foster connection within families by offering suggestions for family date nights. This is a passion project with a few friends.',
+      'A React project in progress that is built to foster connection within families by offering suggestions for family date nights. This is a passion project.',
     info2: '',
     url: 'https://family-date-night.vercel.app/',
     repo: 'https://github.com/Goodly-Development/familyDateNight'
