@@ -41,7 +41,7 @@ export const projectsData = [
     img: 'FDN.png',
     title: 'Family Date Night',
     info:
-      'A project in progress that is built to foster connection within families by offering suggestions for family date nights. This is a passion project with a few friends.',
+      'A React project in progress that is built to foster connection within families by offering suggestions for family date nights. This is a passion project with a few friends.',
     info2: '',
     url: 'https://family-date-night.vercel.app/',
     repo: 'https://github.com/Goodly-Development/familyDateNight'
@@ -60,7 +60,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'joyallenwrites.png',
     title: 'Joy Allen Writes',
-    info: 'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has e-commerce integrated as well.',
+    info: 'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has an e-commerce feature.',
     info2: '',
     url: 'https://www.joyallenwrites.com',
     repo: '', // if no repo, the button will not show up
