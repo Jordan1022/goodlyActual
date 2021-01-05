@@ -65,6 +65,15 @@ export const projectsData = [
     url: 'https://www.joyallenwrites.com',
     repo: '', // if no repo, the button will not show up
   },
+  {
+    id: nanoid(),
+    img: 'OtherProjects.png',
+    title: 'Other Projects We Have Worked On',
+    info: 'These projects are also protected by ICA Agreements and for this reason are not displayed.',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
