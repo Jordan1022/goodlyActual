@@ -7,25 +7,40 @@ export const headData = {
   description: 'Welcome to Goodly', // e.g: Welcome to my website
 };
 
+//HEADER DATA
+// export const headerData = {
+//   img: 'Frame.png'
+// };
+
 // HERO DATA
 export const heroData = {
   title: 'Welcome to',
   name: 'Goodly Development',
-  subtitle: 'Goodly: (Old English) of good quality, abundant.',
+  subtitle: 'A Software Development & Web Services Company',
   cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'Frame.png',
-  paragraphOne: 'We love to build and solve problems.',
-  paragraphTwo: 'Technology solutions are our passion.',
-  paragraphThree: 'What can we do for you?',
+  paragraphOne: 'Goodly: (Old English) of good quality, abundant.',
+  paragraphTwo: 'We love to build and solve problems.',
+  paragraphThree: 'Technology solutions are our passion.',
+  paragraphFour: 'What can we do for you?',
   resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'OtherProjects.png',
+    title: 'Previous Projects',
+    info: 'These projects are protected by ICA Agreements and for this reason details are not given.',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'CRM.png',
@@ -63,15 +78,6 @@ export const projectsData = [
     info: 'A Blog from writer Joy Allen with a focus on faith and encouragement. The site which we designed and currently maintain has an e-commerce feature.',
     info2: '',
     url: 'https://www.joyallenwrites.com',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'OtherProjects.png',
-    title: 'Other Projects We Have Worked On',
-    info: 'These projects are also protected by ICA Agreements and for this reason are not displayed.',
-    info2: '',
-    url: '',
     repo: '', // if no repo, the button will not show up
   }
 ];
