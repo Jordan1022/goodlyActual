@@ -35,7 +35,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'OtherProjects.png',
-    title: 'Previous Projects',
+    title: 'Overview',
     info: 'Here is a general overview of our experience with modern technologies.',
     info2: '',
     url: '',
