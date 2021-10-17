@@ -36,7 +36,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'OtherProjects.png',
     title: 'Previous Projects',
-    info: 'These projects are protected by ICA Agreements and for this reason details are not given.',
+    info: 'Here is a general overview of our experience with modern technologies.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
