@@ -17,15 +17,15 @@ export const heroData = {
   title: 'Welcome to',
   name: 'Goodly Development',
   subtitle: 'A Software Development & Web Services Company',
-  cta: 'Know more',
+  cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'Frame.png',
-  paragraphOne: 'Goodly: (Old English) of good quality, abundant.',
-  paragraphTwo: 'We love to build and solve problems.',
-  paragraphThree: 'Technology solutions are our passion.',
+  paragraphOne: 'Goodly: of good quality, abundant.',
+  paragraphTwo: 'We love building solutions for businesses.',
+  paragraphThree: 'Technology is our passion.',
   paragraphFour: 'What can we do for you?',
   resume: '', // if no resume, the button will not show up
 };
@@ -36,7 +36,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'OtherProjects.png',
     title: 'Overview',
-    info: 'Here is a general overview of our experience with modern technologies.',
+    info: 'This is a a sample of the modern technologies we work with.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -46,7 +46,17 @@ export const projectsData = [
     img: 'CRM.png',
     title: 'Microsoft Dynamics CRM',
     info:
-      'This was a 6 month project in which we built a CRM on the Microsoft Power Platform in coordination with another team. This project is protected by an ICA and for this reason client details and live sample are withheld.',
+      'This was a 6 month project in which we built a CRM on the Microsoft Power Platform. This project is protected by an ICA and for this reason client details and live sample are withheld.',
+    info2: '',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'CRM.png',
+    title: 'Microsoft Dynamics CRM',
+    info:
+      'This was a 6 month project in which we built a CRM on the Microsoft Power Platform. This project is protected by an ICA and for this reason client details and live sample are withheld.',
     info2: '',
     url: '',
     repo: '', // if no repo, the button will not show up
@@ -86,7 +96,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: 'Email',
-  email: 'sales@goodlydevelopment.com',
+  email: 'admin@goodlydevelopment.com',
 };
 
 // FOOTER DATA
@@ -95,7 +105,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: 'https://www.linkedin.com/in/jordan-allen-125b628/',
+      url: 'https://www.linkedin.com/company/goodly-development',
     },
     {
       id: nanoid(),
