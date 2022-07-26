@@ -7,12 +7,16 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <h2>
-          Coming Soon
+          Currently undergoing Maintenance
         </h2>
         <p
         >
-          A new improved site
+          Goodly Development
         </p>
+        <p>
+          Software and Web Development
+        </p>
+
       </header>
     </div>
   );
