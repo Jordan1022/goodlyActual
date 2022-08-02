@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <h2>
           Currently undergoing Maintenance
+          New things coming soon...
         </h2>
         <p
         >
